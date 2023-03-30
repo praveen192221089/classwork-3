@@ -1,0 +1,30 @@
+void printNaturalNumbers(int n) {
+
+    if (n == 1) {
+
+        printf("%d ", n);
+
+        return;
+
+    }
+
+    printNaturalNumbers(n - 1);
+
+    printf("%d ", n);
+
+}
+
+Footer
+© 2023 GitHub, Inc.
+Footer navigation
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
