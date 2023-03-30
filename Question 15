@@ -1,0 +1,30 @@
+Int reverseNumber(int num) {
+
+    if (num < 10) {
+
+        return num;
+
+    }
+
+    int lastDigit = num % 10;
+
+    int remainingDigits = num / 10;
+
+    return (reverseNumber(remainingDigits) * 10) + lastDigit;
+
+}
+
+Footer
+© 2023 GitHub, Inc.
+Footer navigation
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
